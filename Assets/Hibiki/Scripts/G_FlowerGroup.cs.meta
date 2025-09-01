@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 7312af238292a4f8e9314e69adff2868
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - flowerEnergyPrefab: {fileID: 6351704173344584951, guid: 4b01bd23af16a46c7ba6e199c28680df, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

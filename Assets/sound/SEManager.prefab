@@ -1,0 +1,327 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &96601897555373699
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1380234850809518332}
+  - component: {fileID: 94231719096806243}
+  - component: {fileID: 379951571622670678}
+  m_Layer: 0
+  m_Name: SEManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1380234850809518332
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96601897555373699}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.00054829026, y: 42.81743, z: -9.99587}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &94231719096806243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96601897555373699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03e0fb009940cfc45b5358db61558732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &379951571622670678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96601897555373699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b528f853094999b47b00d5951e5adafd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menunoise:
+    acbAsset: {fileID: -6750239444755058063, guid: d1ee22d6136e6e04a8f5c59256cac93c, type: 3}
+    cueId: 1
+  gamestart:
+    acbAsset: {fileID: -6750239444755058063, guid: f5318a60925a46f45842092ca71ea019, type: 3}
+    cueId: 8
+  menuOpen:
+    acbAsset: {fileID: -6750239444755058063, guid: f5318a60925a46f45842092ca71ea019, type: 3}
+    cueId: 2
+  menuClose:
+    acbAsset: {fileID: -6750239444755058063, guid: f5318a60925a46f45842092ca71ea019, type: 3}
+    cueId: 3
+  StartselectSE:
+    acbAsset: {fileID: -6750239444755058063, guid: f5318a60925a46f45842092ca71ea019, type: 3}
+    cueId: 4
+  notStartSelectedSE:
+    acbAsset: {fileID: -6750239444755058063, guid: f5318a60925a46f45842092ca71ea019, type: 3}
+    cueId: 5
+  selectSE:
+    acbAsset: {fileID: -6750239444755058063, guid: f5318a60925a46f45842092ca71ea019, type: 3}
+    cueId: 6
+  textSE:
+    acbAsset: {fileID: -6750239444755058063, guid: f5318a60925a46f45842092ca71ea019, type: 3}
+    cueId: 7
+  targetCameraOnSE:
+    acbAsset: {fileID: -6750239444755058063, guid: f5318a60925a46f45842092ca71ea019, type: 3}
+    cueId: 9
+  targetCameraOffSE:
+    acbAsset: {fileID: -6750239444755058063, guid: f5318a60925a46f45842092ca71ea019, type: 3}
+    cueId: 10
+  playerDamegeSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 04128167ea4a195438725e282fe4d0b9, type: 3}
+    cueId: 12
+  playerWalkSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 04128167ea4a195438725e282fe4d0b9, type: 3}
+    cueId: 11
+  playerRunSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 04128167ea4a195438725e282fe4d0b9, type: 3}
+    cueId: 0
+  playerBrakeSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 5f77ccb6078b99247b0bc3dff094cc31, type: 3}
+    cueId: 11
+  playerLandingSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 04128167ea4a195438725e282fe4d0b9, type: 3}
+    cueId: 3
+  playerJumpSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 04128167ea4a195438725e282fe4d0b9, type: 3}
+    cueId: 3
+  playerFlySE:
+    acbAsset: {fileID: -6750239444755058063, guid: 04128167ea4a195438725e282fe4d0b9, type: 3}
+    cueId: 5
+  playerUmbrellaTakeOutSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 04128167ea4a195438725e282fe4d0b9, type: 3}
+    cueId: 2
+  playerUmbrellaPutAwaySE:
+    acbAsset: {fileID: -6750239444755058063, guid: 04128167ea4a195438725e282fe4d0b9, type: 3}
+    cueId: 7
+  playerUmbrellaAttackHiSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 82363b35d693dc34e812f3291cb51f25, type: 3}
+    cueId: 2
+  playerAttackPrepareSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 04128167ea4a195438725e282fe4d0b9, type: 3}
+    cueId: 8
+  playerAvoidSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 51f08ee3b3015dd4b8d0b1aa02506d9b, type: 3}
+    cueId: 8
+  playerAttackSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 51f08ee3b3015dd4b8d0b1aa02506d9b, type: 3}
+    cueId: 7
+  playerEquipSE1:
+    acbAsset: {fileID: -6750239444755058063, guid: f5318a60925a46f45842092ca71ea019, type: 3}
+    cueId: 0
+  playerEquipSE2:
+    acbAsset: {fileID: -6750239444755058063, guid: f5318a60925a46f45842092ca71ea019, type: 3}
+    cueId: 1
+  flowersBloomSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 04128167ea4a195438725e282fe4d0b9, type: 3}
+    cueId: 6
+  flowersBloomSE2:
+    acbAsset: {fileID: -6750239444755058063, guid: 04128167ea4a195438725e282fe4d0b9, type: 3}
+    cueId: 9
+  lackOfEnergySE:
+    acbAsset: {fileID: -6750239444755058063, guid: f5318a60925a46f45842092ca71ea019, type: 3}
+    cueId: 11
+  energyGetSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 04128167ea4a195438725e282fe4d0b9, type: 3}
+    cueId: 4
+  roseAttackSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 51f08ee3b3015dd4b8d0b1aa02506d9b, type: 3}
+    cueId: 7
+  RoseAttackChargeSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 51f08ee3b3015dd4b8d0b1aa02506d9b, type: 3}
+    cueId: 24
+  roseAttackhitSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 82363b35d693dc34e812f3291cb51f25, type: 3}
+    cueId: 1
+  roseRotationAttackSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 51f08ee3b3015dd4b8d0b1aa02506d9b, type: 3}
+    cueId: 14
+  roseRotationAttackStopSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 51f08ee3b3015dd4b8d0b1aa02506d9b, type: 3}
+    cueId: 15
+  sunflowerLaserChargeSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 51f08ee3b3015dd4b8d0b1aa02506d9b, type: 3}
+    cueId: 3
+  sunflowerLaserShot1SE:
+    acbAsset: {fileID: -6750239444755058063, guid: 51f08ee3b3015dd4b8d0b1aa02506d9b, type: 3}
+    cueId: 6
+  sunflowerLaserShot2SE:
+    acbAsset: {fileID: -6750239444755058063, guid: 51f08ee3b3015dd4b8d0b1aa02506d9b, type: 3}
+    cueId: 9
+  sunflowerLaserShot3SE:
+    acbAsset: {fileID: -6750239444755058063, guid: 51f08ee3b3015dd4b8d0b1aa02506d9b, type: 3}
+    cueId: 4
+  sunflowerLaserHit:
+    acbAsset: {fileID: -6750239444755058063, guid: 82363b35d693dc34e812f3291cb51f25, type: 3}
+    cueId: 0
+  balsamChargeSE:
+    acbAsset: {fileID: 0}
+    cueId: 11
+  balsamDistanceSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 51f08ee3b3015dd4b8d0b1aa02506d9b, type: 3}
+    cueId: 11
+  balsamHitSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 51f08ee3b3015dd4b8d0b1aa02506d9b, type: 3}
+    cueId: 10
+  balsamHitLandingSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 51f08ee3b3015dd4b8d0b1aa02506d9b, type: 3}
+    cueId: 10
+  playerMetamorphosisSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 51aeb44f04e9d5644ba498f78a5595e7, type: 3}
+    cueId: 0
+  playerMetamorphosisGentianSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 51aeb44f04e9d5644ba498f78a5595e7, type: 3}
+    cueId: 4
+  playerMetamorphosisCherryBlossomsSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 51aeb44f04e9d5644ba498f78a5595e7, type: 3}
+    cueId: 0
+  playerMetamorphosishibiscusSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 51aeb44f04e9d5644ba498f78a5595e7, type: 3}
+    cueId: 1
+  playerMetamorphosisNemophilaSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 51aeb44f04e9d5644ba498f78a5595e7, type: 3}
+    cueId: 2
+  playerMetamorphosisPoisionSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 51aeb44f04e9d5644ba498f78a5595e7, type: 3}
+    cueId: 3
+  playerPoisionAttackSE3:
+    acbAsset: {fileID: -6750239444755058063, guid: 51f08ee3b3015dd4b8d0b1aa02506d9b, type: 3}
+    cueId: 22
+  playerPoisionAttackSE1:
+    acbAsset: {fileID: -6750239444755058063, guid: 51f08ee3b3015dd4b8d0b1aa02506d9b, type: 3}
+    cueId: 19
+  playerPoisionAttackSE2:
+    acbAsset: {fileID: -6750239444755058063, guid: 51f08ee3b3015dd4b8d0b1aa02506d9b, type: 3}
+    cueId: 20
+  playerHibiscusAttackSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 51f08ee3b3015dd4b8d0b1aa02506d9b, type: 3}
+    cueId: 23
+  playerNemophilaAttackSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 51f08ee3b3015dd4b8d0b1aa02506d9b, type: 3}
+    cueId: 21
+  shieldSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 51f08ee3b3015dd4b8d0b1aa02506d9b, type: 3}
+    cueId: 16
+  shieldBreakeSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 51f08ee3b3015dd4b8d0b1aa02506d9b, type: 3}
+    cueId: 17
+  shieldParySE:
+    acbAsset: {fileID: -6750239444755058063, guid: 51f08ee3b3015dd4b8d0b1aa02506d9b, type: 3}
+    cueId: 18
+  recoverySE:
+    acbAsset: {fileID: -6750239444755058063, guid: 04128167ea4a195438725e282fe4d0b9, type: 3}
+    cueId: 10
+  acceleratorsSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 6a952d8424ef46f479e2b862d181d831, type: 3}
+    cueId: 3
+  acceleratorsComboSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 6a952d8424ef46f479e2b862d181d831, type: 3}
+    cueId: 4
+  treeSE1:
+    acbAsset: {fileID: -6750239444755058063, guid: dfbb51be10b55234689b5e564219526c, type: 3}
+    cueId: 3
+  treeSE2:
+    acbAsset: {fileID: -6750239444755058063, guid: dfbb51be10b55234689b5e564219526c, type: 3}
+    cueId: 2
+  boarvoiceSE:
+    acbAsset: {fileID: 0}
+    cueId: 2
+  boarvoice2SE:
+    acbAsset: {fileID: 0}
+    cueId: 3
+  boarwalkSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 82875049cd3b6994b9c723494363f2da, type: 3}
+    cueId: 4
+  crowVoiceSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 82875049cd3b6994b9c723494363f2da, type: 3}
+    cueId: 1
+  bearVoiceSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 82875049cd3b6994b9c723494363f2da, type: 3}
+    cueId: 0
+  enemyDamageSE:
+    acbAsset: {fileID: 0}
+    cueId: 0
+  enemyDeathSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 82875049cd3b6994b9c723494363f2da, type: 3}
+    cueId: 12
+  lila_L_thunderSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 82875049cd3b6994b9c723494363f2da, type: 3}
+    cueId: 5
+  lila_bard_attackSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 82875049cd3b6994b9c723494363f2da, type: 3}
+    cueId: 6
+  lila_WarpSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 82875049cd3b6994b9c723494363f2da, type: 3}
+    cueId: 8
+  lila_WarpSE2:
+    acbAsset: {fileID: -6750239444755058063, guid: 82875049cd3b6994b9c723494363f2da, type: 3}
+    cueId: 11
+  lila_explosion_poisonSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 82875049cd3b6994b9c723494363f2da, type: 3}
+    cueId: 9
+  lila_shockWaveSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 82875049cd3b6994b9c723494363f2da, type: 3}
+    cueId: 10
+  lila_BomSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 8b5a76ed84f2aa641b29b6472126580a, type: 3}
+    cueId: 3
+  lila_magicCircleSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 8b5a76ed84f2aa641b29b6472126580a, type: 3}
+    cueId: 7
+  lila_chantingPoisonLakeSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 8b5a76ed84f2aa641b29b6472126580a, type: 3}
+    cueId: 4
+  lila_chantingLthunderSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 8b5a76ed84f2aa641b29b6472126580a, type: 3}
+    cueId: 0
+  lila_chantingBom1SE:
+    acbAsset: {fileID: -6750239444755058063, guid: 8b5a76ed84f2aa641b29b6472126580a, type: 3}
+    cueId: 1
+  lila_chantingBom2SE:
+    acbAsset: {fileID: -6750239444755058063, guid: 8b5a76ed84f2aa641b29b6472126580a, type: 3}
+    cueId: 2
+  lila_chantingBardSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 8b5a76ed84f2aa641b29b6472126580a, type: 3}
+    cueId: 6
+  lila_chantingShockWaveSE:
+    acbAsset: {fileID: -6750239444755058063, guid: 8b5a76ed84f2aa641b29b6472126580a, type: 3}
+    cueId: 5
+  lila_Voice0:
+    acbAsset: {fileID: -6750239444755058063, guid: 83f9fe46d3138174bacd4594aaef04e8, type: 3}
+    cueId: 0
+  lila_Voice1:
+    acbAsset: {fileID: -6750239444755058063, guid: 83f9fe46d3138174bacd4594aaef04e8, type: 3}
+    cueId: 1
+  lila_Voice2:
+    acbAsset: {fileID: -6750239444755058063, guid: 83f9fe46d3138174bacd4594aaef04e8, type: 3}
+    cueId: 2
+  lila_Voice3:
+    acbAsset: {fileID: -6750239444755058063, guid: 83f9fe46d3138174bacd4594aaef04e8, type: 3}
+    cueId: 3
+  lila_Voice4:
+    acbAsset: {fileID: -6750239444755058063, guid: 83f9fe46d3138174bacd4594aaef04e8, type: 3}
+    cueId: 4
+  Lisener: {fileID: 0}
+  CameraTransrom: {fileID: 0}
+  playerWalkAisacName:
+  - walk_kusa

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6748aabd8b2a0418b86426efcaf024f8, type: 3}
+  m_Name: AmaranthWreath
+  m_EditorClassIdentifier: 
+  contentTransform:
+    anchoredPosition: {x: 0, y: 0}
+    sizeDelta: {x: 0, y: 0}
+  texts:
+    m_list:
+    - Key: 1
+      Value:
+      - About amaranth wreath:By pressing L2, you can use globe amaranth to restore
+        HP
+    - Key: 0
+      Value:
+      - "\u5343\u65E5\u7D05\u306B\u3064\u3044\u3066:L2\u3092\u62BC\u3059\u3053\u3068\u3067\u5343\u65E5\u7D05\u306E\u529B\u3092\u4F7F\u3044\u3001HP\u3092\u56DE\u5FA9\u3059\u308B\u3053\u3068\u304C\u3067\u304D\u307E\u3059\u3002"

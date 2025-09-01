@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Ta/Title.unity
+    guid: d8871c4468d646541ad3f18ce74f8b67
+  - enabled: 0
+    path: Assets/Hibiki/Scenes/HibikiPre.unity
+    guid: 08a5e93dcb7ca45c791546db0872fb64
+  - enabled: 1
+    path: Assets/Hibiki/Scenes/HibikiTutorial.unity
+    guid: 5154649808f634c65ab23c46b369c153
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: d5548ac5b11db4854a2fb69f8bbfb21c, type: 2}

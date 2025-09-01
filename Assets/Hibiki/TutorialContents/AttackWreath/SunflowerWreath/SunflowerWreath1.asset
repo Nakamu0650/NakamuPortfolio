@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6748aabd8b2a0418b86426efcaf024f8, type: 3}
+  m_Name: SunflowerWreath1
+  m_EditorClassIdentifier: 
+  contentTransform:
+    anchoredPosition: {x: 0, y: 0}
+    sizeDelta: {x: 0, y: 0}
+  texts:
+    m_list:
+    - Key: 1
+      Value:
+      - "Let\u2019s try using a sunflower wreath:Sunflowers\u2019s attack emits a
+        laser and attacks."
+      - 'The longer you press R2, the more flower energy will be consumed, '
+      - but the stronger the laser will be emitted.
+    - Key: 0
+      Value:
+      - "\u3072\u307E\u308F\u308A\u306E\u82B1\u51A0\u3092\u4F7F\u3063\u3066\u307F\u3088\u3046:\u3072\u307E\u308F\u308A\u306E\u82B1\u51A0\u306F\u30EC\u30FC\u30B6\u30FC\u3092\u51FA\u3057\u3066\u653B\u6483\u3057\u307E\u3059\u3002"
+      - "R2\u3092\u9577\u62BC\u3057\u3092\u3059\u308C\u3070\u3059\u308B\u307B\u3069\u3001\u82B1\u30A8\u30CD\u30EB\u30AE\u30FC\u3092\u6D88\u8CBB\u3057\u307E\u3059\u304C\u3001"
+      - "\u305D\u306E\u5206\u5F37\u3044\u30EC\u30FC\u30B6\u30FC\u3092\u653E\u3064\u3053\u3068\u304C\u3067\u304D\u307E\u3059"

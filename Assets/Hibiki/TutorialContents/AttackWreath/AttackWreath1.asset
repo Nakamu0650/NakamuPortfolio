@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6748aabd8b2a0418b86426efcaf024f8, type: 3}
+  m_Name: AttackWreath1
+  m_EditorClassIdentifier: 
+  contentTransform:
+    anchoredPosition: {x: -560, y: 350}
+    sizeDelta: {x: 230, y: 50}
+  texts:
+    m_list:
+    - Key: 1
+      Value:
+      - About wreath of attack:Attacking consumes flower energy.
+      - she can checks the remaining amount of flower energy in the energy pot on
+        the left.
+    - Key: 0
+      Value:
+      - "\u3053\u3046\u3052\u304D\u306E\u82B1\u51A0\u306B\u3064\u3044\u3066:\u653B\u6483\u3059\u308B\u3068\u82B1\u30A8\u30CD\u30EB\u30AE\u30FC\u3092\u6D88\u8CBB\u3057\u307E\u3059"

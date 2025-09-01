@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6748aabd8b2a0418b86426efcaf024f8, type: 3}
+  m_Name: CalendulaWreath1
+  m_EditorClassIdentifier: 
+  contentTransform:
+    anchoredPosition: {x: 0, y: 0}
+    sizeDelta: {x: 0, y: 0}
+  texts:
+    m_list:
+    - Key: 1
+      Value:
+      - "Let\u2019s try using a calendula wreath:Calendula's attack is to attack
+        by sending a calendula bomb."
+      - 'The longer you press R2, the more flower energy will be consumed, '
+      - but this will increase the number of bombs she can throws and allows her
+        to send them farther.
+    - Key: 0
+      Value:
+      - "\u30DB\u30A6\u30BB\u30F3\u30AB\u306E\u82B1\u51A0\u3092\u4F7F\u3063\u3066\u307F\u3088\u3046:\u30DB\u30A6\u30BB\u30F3\u30AB\u306E\u82B1\u51A0\u306F\u30DB\u30A6\u30BB\u30F3\u30AB\u7206\u5F3E\u3092\u98DB\u3070\u3057\u3066\u653B\u6483\u3057\u307E\u3059"
+      - "R2\u3092\u9577\u62BC\u3057\u3092\u3059\u308C\u3070\u3059\u308B\u307B\u3069
+        \u98DB\u3070\u3059\u30DB\u30A6\u30BB\u30F3\u30AB\u7206\u5F3E\u306E\u500B\u6570\u304C\u5897\u3048\u305F\u308A\u3001
+        \u3088\u308A\u9060\u304F\u307E\u3067\u98DB\u3070\u305B\u308B\u3088\u3046\u306B\u306A\u3063\u305F\u308A\u3057\u307E\u3059\u3002"

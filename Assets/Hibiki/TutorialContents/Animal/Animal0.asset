@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6748aabd8b2a0418b86426efcaf024f8, type: 3}
+  m_Name: Animal0
+  m_EditorClassIdentifier: 
+  contentTransform:
+    anchoredPosition: {x: 0, y: 0}
+    sizeDelta: {x: 0, y: 0}
+  texts:
+    m_list:
+    - Key: 1
+      Value:
+      - The animals are going berserk due to the witch's power.
+      - Let's immediately purify the animals with the power of flowers.
+    - Key: 0
+      Value:
+      - "\u91CE\u751F\u52D5\u7269\u306B\u3064\u3044\u3066:\u52D5\u7269\u305F\u3061\u306F\u9B54\u5973\u306E\u529B\u3067\u72C2\u66B4\u5316\u3057\u3066\u3044\u307E\u3059"
+      - "\u65E9\u901F\u3001\u82B1\u306E\u529B\u3067\u52D5\u7269\u305F\u3061\u3092\u6D44\u5316\u3057\u3066\u3042\u3052\u307E\u3057\u3087\u3046"

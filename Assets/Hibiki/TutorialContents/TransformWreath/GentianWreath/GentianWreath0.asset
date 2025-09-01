@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6748aabd8b2a0418b86426efcaf024f8, type: 3}
+  m_Name: GentianWreath0
+  m_EditorClassIdentifier: 
+  contentTransform:
+    anchoredPosition: {x: 0, y: 0}
+    sizeDelta: {x: 0, y: 0}
+  texts:
+    m_list:
+    - Key: 1
+      Value:
+      - "Let\u2019s transform with gentian wreaths"
+      - Here she has 10 gentian wreaths, one of wreath of transformations , so let's
+        transform.
+    - Key: 0
+      Value:
+      - "\u30EA\u30F3\u30C9\u30A6\u306E\u82B1\u51A0\u3067\u5909\u8EAB\u3057\u3066\u307F\u3088\u3046"
+      - 

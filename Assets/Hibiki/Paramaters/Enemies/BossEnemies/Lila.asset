@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68503a3945ab24aaa82ce22d640d03bb, type: 3}
+  m_Name: Lila
+  m_EditorClassIdentifier: 
+  characterName: 
+  param:
+    m_list:
+    - Key: 0
+      Value:
+        HP: 100
+        ATK: 0
+        DEF: 0
+    - Key: 1
+      Value:
+        HP: 500
+        ATK: 10
+        DEF: 20
+    - Key: 2
+      Value:
+        HP: 700
+        ATK: 20
+        DEF: 20
+    - Key: 3
+      Value:
+        HP: 700
+        ATK: 65
+        DEF: 20
+    - Key: 4
+      Value:
+        HP: 500
+        ATK: 85
+        DEF: 20

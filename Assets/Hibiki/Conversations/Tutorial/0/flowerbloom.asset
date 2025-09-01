@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04b51f675bf4540d98af8e2efbc67bfc, type: 3}
+  m_Name: flowerbloom
+  m_EditorClassIdentifier: 
+  texts:
+    m_list:
+    - Key: 0
+      Value:
+      - speaker: "\u30CE\u30EB\u30F3"
+        text: "\u82B1\u306E\u5996\u7CBE\u304C\u54B2\u304B\u305B\u308B\u82B1\u306B\u306F\u3001\u82B1\u30A8\u30CD\u30EB\u30AE\u30FC\u304C\u8FBC\u3081\u3089\u308C\u3066\u3044\u308B\u306E\u3067\u82B1\u30A8\u30CD\u30EB\u30AE\u30FC\u3092\u96C6\u3081\u308B\u3053\u3068\u304C\u3067\u304D\u308B\u306E"
+      - speaker: "\u30CE\u30EB\u30F3"
+        text: "\u82B1\u30A8\u30CD\u30EB\u30AE\u30FC\u3092\u96C6\u3081\u308B\u3068\u3001\u306A\u3093\u3068\uFF01\u79C1\u9054\u306E\u624B\u52A9\u3051\u3092\u3057\u3066\u304F\u308C\u308B\u82B1\u51A0\u304C\u3064\u304F\u308C\u3061\u3083\u3046\u3093\u3060\u3088\uFF01"
+      - speaker: "\u30CE\u30EB\u30F3"
+        text: "\u6B69\u3044\u305F\u308A\u82B1\u51A0\u306E\u52B9\u679C\u3092\u4F7F\u3063\u305F\u308A\u3057\u3066\u82B1\u3092\u305F\u304F\u3055\u3093\u3055\u304B\u305B\u3088\u3046\uFF01"
+    - Key: 1
+      Value:
+      - speaker: Norn
+        text: The flowers you bloom contain flower energy
+      - speaker: Norn
+        text: By collecting this flower energy, you can create a flower crown that
+          will help us!

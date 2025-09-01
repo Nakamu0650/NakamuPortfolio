@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 1d0ca06163ce4485aa6dcf1f1163511e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - examineBarContent: {fileID: 11400000, guid: b1cb7ff5311ad4d37aca284f65915745, type: 2}
+  - imageCanvasGroup: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

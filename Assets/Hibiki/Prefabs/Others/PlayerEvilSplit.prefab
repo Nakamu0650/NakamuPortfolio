@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3094262459629840913
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3903854370895791013, guid: bb6defa981c0d43938dedaf53a635337, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3903854370895791013, guid: bb6defa981c0d43938dedaf53a635337, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3903854370895791013, guid: bb6defa981c0d43938dedaf53a635337, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3903854370895791013, guid: bb6defa981c0d43938dedaf53a635337, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3903854370895791013, guid: bb6defa981c0d43938dedaf53a635337, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3903854370895791013, guid: bb6defa981c0d43938dedaf53a635337, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3903854370895791013, guid: bb6defa981c0d43938dedaf53a635337, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3903854370895791013, guid: bb6defa981c0d43938dedaf53a635337, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3903854370895791013, guid: bb6defa981c0d43938dedaf53a635337, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3903854370895791013, guid: bb6defa981c0d43938dedaf53a635337, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3903854370895791013, guid: bb6defa981c0d43938dedaf53a635337, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3903854370895791013, guid: bb6defa981c0d43938dedaf53a635337, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3903854370895791013, guid: bb6defa981c0d43938dedaf53a635337, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3903854370895791013, guid: bb6defa981c0d43938dedaf53a635337, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3903854370895791013, guid: bb6defa981c0d43938dedaf53a635337, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5054182544631853669, guid: bb6defa981c0d43938dedaf53a635337, type: 3}
+      propertyPath: tagName
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5054182544631853669, guid: bb6defa981c0d43938dedaf53a635337, type: 3}
+      propertyPath: evilSplit
+      value: 
+      objectReference: {fileID: 11400000, guid: c379af6202d2445068ff30702b9ee3e1, type: 2}
+    - target: {fileID: 5054182544631853669, guid: bb6defa981c0d43938dedaf53a635337, type: 3}
+      propertyPath: paramater
+      value: 
+      objectReference: {fileID: 11400000, guid: 9700aa458c7ad489bbe7a23d42e173f4, type: 2}
+    - target: {fileID: 5054182544631853669, guid: bb6defa981c0d43938dedaf53a635337, type: 3}
+      propertyPath: enemyTagName
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5054182544631853669, guid: bb6defa981c0d43938dedaf53a635337, type: 3}
+      propertyPath: groundHitRadius
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5054182544631853669, guid: bb6defa981c0d43938dedaf53a635337, type: 3}
+      propertyPath: hitLayer.m_Bits
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 5054182544631853669, guid: bb6defa981c0d43938dedaf53a635337, type: 3}
+      propertyPath: enemyLayer.m_Bits
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 7357076863386152424, guid: bb6defa981c0d43938dedaf53a635337, type: 3}
+      propertyPath: m_Name
+      value: PlayerEvilSplit
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bb6defa981c0d43938dedaf53a635337, type: 3}

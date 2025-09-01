@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6633791902046077905
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3318854813506275185}
+  - component: {fileID: 8195845959293590527}
+  m_Layer: 0
+  m_Name: BGMer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3318854813506275185
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6633791902046077905}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8195845959293590527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6633791902046077905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99773d0dbc7fdd04c826bc3bdc1b16b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuBgm:
+    acbAsset: {fileID: -6750239444755058063, guid: 3f58c0b2ee377aa4daf4ab6dd1e4c98e, type: 3}
+    cueId: 5
+  fieldBgm:
+    acbAsset: {fileID: -6750239444755058063, guid: 3f58c0b2ee377aa4daf4ab6dd1e4c98e, type: 3}
+    cueId: 7
+  tutrialBgm:
+    acbAsset: {fileID: -6750239444755058063, guid: 3f58c0b2ee377aa4daf4ab6dd1e4c98e, type: 3}
+    cueId: 3
+  battleBgm:
+    acbAsset: {fileID: -6750239444755058063, guid: 3f58c0b2ee377aa4daf4ab6dd1e4c98e, type: 3}
+    cueId: 3
+  BossBgm:
+    acbAsset: {fileID: -6750239444755058063, guid: 3f58c0b2ee377aa4daf4ab6dd1e4c98e, type: 3}
+    cueId: 0
+  WolfBossBgm:
+    acbAsset: {fileID: -6750239444755058063, guid: 3f58c0b2ee377aa4daf4ab6dd1e4c98e, type: 3}
+    cueId: 2
+  PVBGM:
+    acbAsset: {fileID: -6750239444755058063, guid: 3f58c0b2ee377aa4daf4ab6dd1e4c98e, type: 3}
+    cueId: 6
+  environmentSE:
+    acbAsset: {fileID: -6750239444755058063, guid: dfbb51be10b55234689b5e564219526c, type: 3}
+    cueId: 1
+  bgmCategoryName: bgm
+  seCategoryName: se
+  voiseCategoryName: voise
+  isMenu: 0
+  isBoss: 0
+  isField: 1
+  isTutrial: 0
+  isEnvironment: 1
+  isWolfBoss: 0
+  isPV: 0
+  fieldAisacName:
+  - haru
+  - natu
+  - aki
+  - sentou
+  tutrialAisacName:
+  - tyu-toriaru_sentou
+  - tyu-toriaru_tansaku
+  bossAisacName: []
+  isWinterChange: 1
